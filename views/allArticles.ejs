@@ -6,10 +6,12 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>All Articles : </h1>
+    <br>
     <% articles.forEach(element => {%>
         <div><%= element.title %></div>
         <div><%= element.body %></div>
         <div><%= element.numOfLikes %></div>
         <% }); %>
 </body>
-</html>
+</html> 
